@@ -10,7 +10,7 @@ return (
         What <span className="text-yellow-500">Users</span> say about us?
       </div>
 
-      <div className="flex gap-5 mt-10 flex-wrap">
+      <div className="flex gap-5 mt-10 flex-wrap ml-7">
         {testimonials.map((item, index) => (
           <div
             key={index}

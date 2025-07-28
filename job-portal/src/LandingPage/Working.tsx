@@ -1,5 +1,5 @@
 
-import { jobCategory, work } from "../Data/Data";
+import { work } from "../Data/Data";
 
 
 const Working = () => {
@@ -14,7 +14,7 @@ const Working = () => {
                 Explore diverse job opportunities tailored to your skills. Start your career journey today!
             </div>
 
-            <div className="flex ">
+            <div className="flex gap-20 pl-20">
                 <div className="m-10">
                     <img src="workingwomen.png" alt="" />
                 </div>

@@ -3,7 +3,7 @@ import { IconSearch } from '@tabler/icons-react';
 
 const DreamJob = () => {
   return (
-    <div className="flex items-center px-20 mx-20">
+    <div className="flex items-center px-20 mx-20 pb-20">
 
       <div className="flex flex-col gap-5 w-[45%] leading-tight">
         <div className="text-6xl font-bold text-yellow-100 [&>span]:text-yellow-500">

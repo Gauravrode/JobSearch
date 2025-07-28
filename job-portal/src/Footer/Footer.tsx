@@ -8,8 +8,8 @@ import { footerlinks } from "../Data/Data";
 
 const Footer = () => {
     return (
-        <div className="w-full bg-zinc-900 text-white px-6 mt-10 py-10 justify-around">
-            <div className="flex flex-wrap gap-10 max-w-6xl mx-auto">
+        <div className="w-full bg-zinc-900 text-white p-10 justify-around">
+            <div className="flex flex-wrap gap-10 max-w-10xl mx-auto">
 
                 <div className="w-full sm:w-1/4 p-4 mr-10">
                     <div className="flex gap-2 items-center pl-2 mb-2">
@@ -33,7 +33,7 @@ const Footer = () => {
                         {section.links.map((link, j) => (
                             <div
                                 key={j}
-                                className="text-gray-300 text-sm hover:text-yellow-400 cursor-pointer mb-2"
+                                className="text-gray-300 text-sm hover:text-yellow-400 cursor-pointer mb-2 hover:translate-x-2 transition duration-300 ease-in-out"
                             >
                                 {link}
                             </div>

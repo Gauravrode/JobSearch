@@ -1,12 +1,12 @@
 import { Carousel } from "@mantine/carousel";
-import { jobCategory, work } from "../Data/Data";
+import { jobCategory } from "../Data/Data";
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 
 const JobCategory = () => {
   return (
     <>
-      <div className="text-4xl font-semibold text-yellow-100 mb-3 text-center">
+      <div className="text-4xl font-semibold text-yellow-100 mb-3 text-center ">
         Browse <span className="text-yellow-500">Job</span> Category
       </div>
       <div className="text-lg text-center text-gray-600">
