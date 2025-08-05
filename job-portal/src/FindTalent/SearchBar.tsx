@@ -17,11 +17,14 @@ import {
     talentNames,
 } from '../Data/Data';
 
+
+
 const SearchBar = () => {
   const [salary, setSalary] = useState<number>(50000);
 
   return (
-    <div className="flex flex-wrap gap-6 items-start px-4 py-6 rounded-lg shadow bg-black-800 text-black">
+    <div className="flex flex-wrap gap-6 px-4 py-6 rounded-lg shadow">
+
       <MultiSelect
         data={talentNames}
         placeholder="Search by talent name"
@@ -35,6 +38,8 @@ const SearchBar = () => {
         classNames={{
           input: 'border border-gray-300 rounded px-2 py-2 h-[44px] min-h-[44px]',
         }}
+        
+    
       />
 
       <MultiSelect
